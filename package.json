@@ -5,5 +5,11 @@
   "main": "index.js",
   "repository": "https://github.com/uiwjs/codepen-require-polyfill.git",
   "author": "Kenny Wong <wowohoo@qq.com> (https://github.com/jaywcjlove)",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "uiw",
+    "react",
+    "require",
+    "codepen"
+  ]
 }
