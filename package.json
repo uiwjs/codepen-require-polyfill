@@ -1,6 +1,6 @@
 {
   "name": "@uiw/codepen-require-polyfill",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "codepen require uiw",
   "main": "index.js",
   "repository": "https://github.com/uiwjs/codepen-require-polyfill.git",
