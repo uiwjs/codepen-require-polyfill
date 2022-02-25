@@ -1,4 +1,5 @@
 [![jsdelivr cdn](https://data.jsdelivr.com/v1/package/npm/@uiw/codepen-require-polyfill/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@uiw/codepen-require-polyfill)
+[![NPM Downloads](https://img.shields.io/npm/dm/@uiw/codepen-require-polyfill.svg?style=flat)](https://www.npmjs.com/package/@uiw/codepen-require-polyfill)
 [![Open in unpkg](https://img.shields.io/badge/Open%20in-unpkg-blue?label=@uiw/codepen-require-polyfill)](https://uiwjs.github.io/npm-unpkg/#/pkg/@uiw/codepen-require-polyfill/file/README.md)
 [![npm version](https://img.shields.io/npm/v/@uiw/codepen-require-polyfill.svg)](https://www.npmjs.com/package/@uiw/codepen-require-polyfill)
 
