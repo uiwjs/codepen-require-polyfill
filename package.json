@@ -4,6 +4,7 @@
   "description": "codepen require polyfill",
   "main": "index.js",
   "repository": "https://github.com/uiwjs/codepen-require-polyfill.git",
+  "homepage": "https://uiwjs.github.io/codepen-require-polyfill/",
   "author": "Kenny Wong <wowohoo@qq.com> (https://github.com/jaywcjlove)",
   "license": "MIT",
   "keywords": [
