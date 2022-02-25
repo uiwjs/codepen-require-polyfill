@@ -47,3 +47,7 @@ https://cdn.jsdelivr.net/npm/@uiw/codepen-require-polyfill/index.js
   </body>
 </html>
 ```
+
+## License
+
+Licensed under the MIT License.
