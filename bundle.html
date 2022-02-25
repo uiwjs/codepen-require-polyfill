@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://unpkg.com/@babel/standalone@7.17.x/babel.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react@16.x/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16.x/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@uiw/codepen-require-polyfill/index.js"></script>
+    <script src="https://unpkg.com/uiw@4.x/dist/uiw.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/uiw@4.x/dist/uiw.min.css">
+  </head>
+  <body>
+    <div id="container" style="padding: 24px"></div>
+    <script type="text/babel">
+      import { Button, Slider, Divider } from 'uiw';
+
+      const Demo = () => {
+        const [value, setValue] = React.useState(20);
+        const [value2, setValue2] = React.useState(-5);
+        const [value3, setValue3] = React.useState([10, 50]);
+
+        return (
+          <div>
+            <Button type="primary">主要按钮</Button>
+            <Button type="success">成功按钮</Button>
+            <Button type="warning">警告按钮</Button>
+            <Button type="danger">错误按钮</Button>
+            <Button type="light">亮按钮</Button>
+            <Button type="dark">暗按钮</Button>
+            <Divider />
+            <Slider
+              value={value}
+              style={{ maxWidth: 360 }}
+              onChange={(value)=> setValue(value)}
+            />
+            <div>设置 progress 值为 <b>"false"</b> 不显示进度条</div>
+            <Slider
+              progress={false}
+              value={value}
+              style={{ maxWidth: 360, marginTop: 30 }}
+              onChange={(value)=> setValue(value)}
+            />
+            <div>设置 progress 值为 <b>"#dc3545"</b> 这是一个颜色值，设置进度条颜色</div>
+            <Slider
+              // progress={false}
+              progress="#dc3545"
+              value={value}
+              style={{ maxWidth: 360, marginTop: 30 }}
+              onChange={(value)=> setValue(value)}
+            />
+            <div>当前值：<b>{value}</b></div>
+            <Divider />
+            <Slider
+              min={-10}
+              max={30}
+              value={value2}
+              style={{ maxWidth: 260 }}
+              onChange={(val)=> setValue2(val)}
+            />
+            <div>可选 -10~30值范围：<b>{value2}</b></div>
+            <Divider />
+            <Slider value={value3} style={{ maxWidth: 260 }}
+              onChange={(val)=> setValue3(val)}
+            />
+            <div>取值范围：<b>{value3[0]} ~ {value3[1]}</b></div>
+          </div>
+        );
+      };
+
+      ReactDOM.render(<Demo />, document.getElementById('container'));
+    </script>
+  </body>
+</html>
