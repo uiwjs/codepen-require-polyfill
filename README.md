@@ -8,10 +8,10 @@ https://unpkg.com/@uiw/codepen-require-polyfill/index.js
 https://cdn.jsdelivr.net/npm/@uiw/codepen-require-polyfill/index.js
 ```
 
+- GitHub Pages Example: https://uiwjs.github.io/codepen-require-polyfill/bundle.html
 - Codepen Example: https://codepen.io/jaywcjlove/pen/wvzPgqm?editors=0010
 - UNPKG: https://unpkg.com/browse/@uiw/codepen-require-polyfill/
 - jsDelivr: https://cdn.jsdelivr.net/npm/@uiw/codepen-require-polyfill/
-
 
 ```html
 <!DOCTYPE html>
